@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-head"><p><strong>Movie Recommendation system</strong></p>
+        <div class="dropdown">
+            <label for="genreSelect">Select Genre:</label>
+            <button class="dropdown-btn">Genres</button>
+            <div class="dropdown-content">
+                <a href="#" onclick="showMovies('all')">All</a>
+                <a href="#" onclick="showMovies('action')">Action</a>
+                <a href="#" onclick="showMovies('comedy')">Comedy</a>
+                <a href="#" onclick="showMovies('drama')">Drama</a>
+            </div>
+        </div>
+    
+    <div class="movie-list" id="movieList">
+    </div>   
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
